@@ -24,17 +24,17 @@ class ViewController: UITableViewController {
         
         
         
-        var restorante = Restorante(name: "Wine & Rose", image: #imageLiteral(resourceName: "wine&rose"), tipo: "internacional", comentarios: ["bueno, agusto, pedir la terraza"],location: "Av. Javier Barros Sierra 540, Santa Fe, Zedec Sta Fé, 01210 Ciudad de México, CDMX")
+        var restorante = Restorante(name: "Wine & Rose", image: #imageLiteral(resourceName: "wine&rose"), tipo: "internacional", telephone: "01 55 5257 5959", website: "http://wine-roses.negocio.site/", comentarios: ["bueno, agusto, pedir la terraza"],location: "Av. Javier Barros Sierra 540, Santa Fe, Zedec Sta Fé, 01210 Ciudad de México, CDMX")
         restorantes.append(restorante)
         
         
-        restorante = Restorante(name: "Centralito", image: #imageLiteral(resourceName: "centralito interiores 1"),tipo: "frances", comentarios: ["buen ambiente, y buenos Gins"],location: "Anatole France 70, Polanco, Polanco III Secc, 11550 Ciudad de México, CDMX")
+        restorante = Restorante(name: "Centralito", image: #imageLiteral(resourceName: "centralito interiores 1"),tipo: "frances",telephone: "01 55 5257 5959", website: "", comentarios: ["buen ambiente, y buenos Gins"],location: "Anatole France 70, Polanco, Polanco III Secc, 11550 Ciudad de México, CDMX")
         restorantes.append(restorante)
         
-        restorante = Restorante(name: "Prosseco Polanco", image: #imageLiteral(resourceName: "Prosecco_14_1750"), tipo: "italiano", comentarios: ["bueno", "comida rica"],location: "Virgilio 7, Polanco, Polanco III Secc, 11560 Ciudad de México, CDMX")
+        restorante = Restorante(name: "Prosseco Polanco", image: #imageLiteral(resourceName: "Prosecco_14_1750"), tipo: "italiano",telephone: "01 55 5257 5959", website: "", comentarios: ["bueno", "comida rica"],location: "Virgilio 7, Polanco, Polanco III Secc, 11560 Ciudad de México, CDMX")
         restorantes.append(restorante)
         
-        restorante = Restorante(name: "Kingfish", image: #imageLiteral(resourceName: "kingfish") , tipo: "mariscos", comentarios: ["bueno, agusto, pedir la terraza"],location: "Juan Salvador Agraz, Santa Fe, 05300 México Distrito Fede")
+        restorante = Restorante(name: "Kingfish", image: #imageLiteral(resourceName: "kingfish") , tipo: "mariscos",telephone: "01 55 5257 5959", website: "", comentarios: ["bueno, agusto, pedir la terraza"],location: "Juan Salvador Agraz, Santa Fe, 05300 México Distrito Fede")
         restorantes.append(restorante)
         
         

@@ -18,17 +18,23 @@ class Restorante: NSObject {
     var platillos : [String]!
     var ciudad: String!
     var location : String!
+    var telephone : String!
+    var website = ""
+    
     
     var isFavorite: Bool = false
     
     
     
-    init(name: String, image: UIImage, tipo: String, comentarios: [String], location: String) {
+    init(name: String, image: UIImage, tipo: String,telephone: String,website: String, comentarios: [String], location: String) {
+        
         self.name = name
         self.image = image
         self.tipo = tipo
         self.comentarios = comentarios
         self.location = location
+        self.telephone = telephone
+        self.website = website
         
 
     

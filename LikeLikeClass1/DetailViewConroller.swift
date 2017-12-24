@@ -46,7 +46,7 @@ extension DetailViewConroller : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
       
-        return 4
+        return 6
         
     }
     
@@ -73,8 +73,12 @@ extension DetailViewConroller : UITableViewDataSource {
         case 3:
             cell.keyLabel.text = "Direccion: "
             cell.valueLabel.text = self.restorante.location
-            
-            
+        case 4:
+            cell.keyLabel.text = "Telefono: "
+            cell.valueLabel.text = self.restorante.telephone
+        case 5:
+            cell.keyLabel.text = "website: "
+            cell.valueLabel.text = self.restorante.website
         
         default: break
             
