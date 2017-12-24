@@ -2,8 +2,9 @@
 //  ViewController.swift
 //  LikeLikeClass1
 //
-//  Created by Maria Susana Moline Venanzi on 12/10/17.
+//  Created by Rafael Aguirre on 12/10/17.
 //  Copyright © 2017 HRApps. All rights reserved.
+//  LifeLike idea original por Rafael Aguirre la cual cambiara la forma en que decidimos actividades en el mundo en que vivimos
 //
 
 import UIKit
