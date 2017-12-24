@@ -2,9 +2,10 @@
 //  ViewController.swift
 //  LikeLikeClass1
 //
-//  Created by Maria Susana Moline Venanzi on 12/10/17.
+//  Created by Rafael Aguirre on 12/10/17.
 //  Copyright © 2017 HRApps. All rights reserved.
-//
+//  Realizaremos Historia
+// non stop with baby steps - lets go 2018
 
 import UIKit
 
